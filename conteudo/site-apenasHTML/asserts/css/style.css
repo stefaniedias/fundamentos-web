@@ -1,0 +1,66 @@
+/* é necessario criar uma pagina de estilo, para organizar melhor o projeto,
+alem de distribuir leyouts e aruumar o conteudo*/
+
+/* estilos da pagina index.html, inicial*/
+
+/*este parametro define todo paragrafos, subtitulos e titulos atribuido como 
+a class "center" centralizar no meio de tela.*/
+
+.center {
+
+    text-align: center;
+    
+}
+
+ .container {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+
+    
+ }
+
+/* estilos da pagina  contato.html*/
+
+/*estamos modificando os botoes, colocando um ao lado do
+outro e defininfo o espaçamento com padding.
+ou margin, a diferença é o tamanho da area que cada um pega.*/
+
+.menu li {
+    display: inline;
+    padding: 20px;
+   
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu li a:hover {
+
+    color: dimgrey;
+}
+
+
+.p-30 {
+
+    padding: 40px;
+}
+
+
+.img {
+    padding: 30px;
+}
+
+.br-50 {
+    border-radius: 45%;
+}
+
+.tm-social {
+
+    width: 50px;
+    height: 50px;
+}
